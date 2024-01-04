@@ -45,7 +45,7 @@ output:
 
 light:
   - platform: rgbww
-    name: ""
+    name: None
     color_interlock: true
     icon: mdi:light-recessed
     id: ${id_name}_light
@@ -108,4 +108,4 @@ text_sensor:
     name: "mDNS"
     internal: true
     entity_category: diagnostic
-    lambda: return {"http://${device_name}.local/"};
+    lambda: return {"http://${esp_name}.local/"};
