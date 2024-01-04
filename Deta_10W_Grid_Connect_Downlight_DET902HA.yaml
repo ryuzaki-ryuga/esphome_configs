@@ -45,7 +45,6 @@ output:
 
 light:
   - platform: rgbww
-    name: None
     color_interlock: true
     icon: mdi:light-recessed
     id: ${id_name}_light
